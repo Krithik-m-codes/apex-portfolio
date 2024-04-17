@@ -16,19 +16,23 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className=" bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        {/* nav and hero  */}
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero/>
+          <Hero />
         </div>
-        <About/>
-        <Experience/>
-        <Tech/>
-        <Works/>
-        <Feedbacks/>
+        {/* website pages */}
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        {/* final page */}
         <div className="relative z-0">
-          <Contact/>
-          <StarsCanvas/>
+          <Contact />
+          <StarsCanvas />
         </div>
+        {/* end of portfolio website */}
       </div>
     </BrowserRouter>
   );

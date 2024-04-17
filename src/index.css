@@ -48,6 +48,7 @@
 
 .orange-text-gradient {
     background: #f12711;
+    background-clip: text;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top,
             #f12711,
@@ -63,6 +64,7 @@
 
 .green-text-gradient {
     background: #11998e;
+    background-clip: text;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top,
             #11998e,
@@ -79,6 +81,7 @@
 .blue-text-gradient {
     /* background: -webkit-linear-gradient(#eee, #333); */
     background: #56ccf2;
+    background-clip: text;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top,
             #2f80ed,
@@ -94,6 +97,7 @@
 
 .pink-text-gradient {
     background: #ec008c;
+    background-clip: text;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top,
             #ec008c,
